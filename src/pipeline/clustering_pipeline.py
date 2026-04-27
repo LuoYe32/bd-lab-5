@@ -58,7 +58,6 @@ class ClusteringPipeline:
             prediction_col=self.config.model.prediction_col,
         )
 
-    # todo: add logger, dvc
     def run(self) -> None:
         self._initialize_components()
 
