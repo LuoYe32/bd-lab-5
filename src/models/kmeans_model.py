@@ -6,7 +6,7 @@ class KMeansClusteringModel:
     def __init__(
         self,
         k: int = 5,
-        seed: int = 42,
+        seed: int = 51,
         features_col: str = "scaled_features",
         prediction_col: str = "prediction",
     ):
